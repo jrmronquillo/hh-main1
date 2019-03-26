@@ -34,14 +34,15 @@
 	    </form>
 	  </div>
 	</nav>
- 	<div class="container-fluid">
+ <div class="container-main">
 
 	<div class="main-text">	
 		<h1> Lorem Ipsum! </h1>
 		<button type="button" class="btn btn-outline-success">
 			<a href='<?php echo site_url('/test-p/') ?>'> Test </a>
 		</button>
-		<button type="button" class="btn btn-outline-success cta-margin">Action 2</button>
+		<button type="button" class="btn btn-outline-success cta-margin">
+			<a href="http://google.com/">Action 2</a></button>
 	</div>
 </div>
 
