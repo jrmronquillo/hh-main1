@@ -25,6 +25,10 @@ body {
 	
 }
 
+.cta-margin{
+	margin: 0 1em 0 1em;
+}
+
 .main-text{
 	margin-top: 25%;
 }
