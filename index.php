@@ -1,6 +1,7 @@
 <?php get_header(); ?>
+<div class="cover-container d-flex w-100 h-100 mx-auto flex-column">
 	<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-	  <a class="navbar-brand" href="#">Navbar</a>
+	  <a class="navbar-brand" href="#">Home</a>
 	  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
 	    <span class="navbar-toggler-icon"></span>
 	  </button>
@@ -34,19 +35,26 @@
 	    </form>
 	  </div>
 	</nav>
- <div class="container-main">
 
-	<div class="main-text">	
-		<h1> Lorem Ipsum! </h1>
-		<button type="button" class="btn btn-outline-success">
-			<a href='<?php echo site_url('/test-p/') ?>'> Test </a>
-		</button>
-		<button type="button" class="btn btn-outline-success cta-margin">
-			<a href="http://google.com/">Action 2</a></button>
-	</div>
+ 
+
+	<main role="main" class="inner cover blurry-city-bg">
+		<header class="header-style"></header>
+				<span class="main-text indie-google-font"> Lorem Ipsum! </span>
+				<div class="">
+					<button type="button" class=" btn btn-outline-warning button-custom ">
+						<a href='<?php echo site_url('/test-p/') ?>'> <div class="button-text indie-google-font"> Test </div> </a>
+					</button>
+				</div>
+			<button type="button" class="btn btn-outline-warning cta-margin">
+				<a href="http://google.com/"> <div class="button-text indie-google-font">Action 2 </div></a>
+			</button>
+	</main>
+	
 </div>
+</
 
-<?php	
-	get_footer();
+<!--<?php	
+	//get_footer();
 
-?>
+?> -->
