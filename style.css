@@ -31,6 +31,16 @@ html,body {
 	  background-size: cover;
 	}
 
+.gallery .gallery-item,
+.gallery-columns-2 .gallery-item:nth-child(2n+1),
+.gallery-columns-3 .gallery-item:nth-child(3n+1),
+.gallery-columns-4 .gallery-item:nth-child(4n+1) {
+     clear: none;
+}
+
+.gallery-display-mobile{
+	display:none;
+}
 .gallery-padding{
 	padding: 2em;
 }
@@ -38,6 +48,7 @@ html,body {
 .indie-google-font{
 	font-family: 'Indie Flower', cursive;
 }
+
 
 .custom-image-style{
 	padding: 1000px;
@@ -63,6 +74,11 @@ html,body {
 .header-style{
 	height: 10%;
 }
+
+.fa-instagram, .fa-twitter-square, .fa-cookie{
+	color: black;
+}
+
 .footer-container{
 	position: relative;
 	width: 100%;
@@ -82,14 +98,23 @@ html,body {
 	color: #FFF;
 }
 
-a{
+.testr:link {
 	text-decoration: none;
 }
+
 
 @media (max-width: 450px) {
 	.main-text{
 		font-size: 6em;
 
 		color: #FFF;
+	}
+
+	.gallery-fullscreen-display{
+		display: none;
+	}
+
+	.gallery-mobile-display{
+		display: block;
 	}
 }
