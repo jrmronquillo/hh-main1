@@ -31,6 +31,10 @@ html,body {
 	  background-size: cover;
 	}
 
+.gallery-padding{
+	padding: 2em;
+}
+
 .indie-google-font{
 	font-family: 'Indie Flower', cursive;
 }
