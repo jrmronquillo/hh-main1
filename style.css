@@ -23,7 +23,7 @@ html,body {
 .blurry-city-bg{
 	background-image: url('images/blurry-city.jpeg');
 	 /* Full height */
-	  height: 100%; 
+	  height: 100%;
 
 	  /* Center and scale the image nicely */
 	  background-position: center;
@@ -59,7 +59,7 @@ html,body {
 	position: relative;
 	background-image: url('images/blurry-city.jpeg');
 	 /* Full height */
-	  height: 100%; 
+	  height: 100%;
 
 	  /* Center and scale the image nicely */
 	  background-position: center;
@@ -90,12 +90,23 @@ html,body {
 	position: absolute;
 	top: 25%;
 	left: 20%;
-	
+
 }
 
 .main-text{
 	font-size: 8em;
 	color: #FFF;
+}
+
+.sunrise-bg{
+	background-image: url('images/sunrise-1.jpg');
+	 /* Full height */
+	  height: 100%;
+
+	  /* Center and scale the image nicely */
+	  background-position: center;
+	  background-repeat: no-repeat;
+	  background-size: cover;
 }
 
 .testr:link {
